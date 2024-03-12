@@ -276,7 +276,6 @@ header {
 
 .my-services {
     background-image: url('img/services-bg.jpg');
-   /* background-image: url(../img/services-bg.jpg);*/
     background-size: cover;
     color: var(--clr-light);
     text-align: center;
@@ -307,7 +306,7 @@ header {
     margin: 0 auto;
 }
 .service p {
-    font-size: 20px; /* Adjust the size as needed */
+    font-size: 20px;
 }
 
 @media (min-width: 800px) {
@@ -380,8 +379,8 @@ header {
     background-color: whitesmoke;
     background-size: cover;
     background-position: center;
-    padding: 20px; /* Adjust padding as needed */
-    color: black; /* Set text color to contrast with the background */
+    padding: 20px; 
+    color: black; 
 }
 
 .myProjectHead {
@@ -399,13 +398,13 @@ header {
 .col {
     flex: 0 0 calc(33.33% - 20px);
     margin-bottom: 30px;
-    background-color: #fff; /* Set your desired background color */
-    padding: 20px; /* Add padding to give space for the shadow */
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Add a subtle shadow */
-    transition: transform 0.3s ease-in-out; /* Optional: Add a transition effect */
+    background-color: #fff; 
+    padding: 20px; 
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); 
+    transition: transform 0.3s ease-in-out; 
 }
 .col:hover {
-    transform: scale(1.05); /* Optional: Add a scale effect on hover */
+    transform: scale(1.05); 
 }
 
 .col img {
@@ -473,14 +472,6 @@ header {
 
 .social-list__link {
     padding: .5em;
-}
-
-
-/* Individual Portfolio */
-
-.portfolio-item-individual {
-    padding: 0 2em 2em;
-    
 }
 
 .footer {
@@ -554,21 +545,17 @@ textarea {
     font-size: 24px;
 }
 
-@media (max-width: 768px) {
-    .footer {
-        padding: 2em 1em; /* Adjust padding for smaller screens */
-    }
-
-    .social-list {
-        margin: 1em 0 0; /* Adjust margin for smaller screens */
-    }
-}
-
-/* Customize the style of ion-icon or font-awesome icon based on your preference */
 ion-icon {
     font-size: 24px;
 }
 
-.fab.fa-github {
-    font-size: 24px;
+
+@media (max-width: 768px) {
+    .footer {
+        padding: 2em 1em; 
+    }
+
+    .social-list {
+        margin: 1em 0 0; 
+    }
 }
