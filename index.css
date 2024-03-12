@@ -77,10 +77,10 @@ strong { font-weight: var(--fw-bold) }
     color: var(--clr-dark);
     text-decoration: none;
     cursor: pointer;
-    font-size: .9rem;
+    font-size: .8rem;
     font-weight: bold;
     text-transform: uppercase;
-    letter-spacing: 4px;
+    letter-spacing: 2px;
     transition: transform 200ms ease-in-out;
 }
 
@@ -101,12 +101,6 @@ h1 { font-size: var(--fs-h1) }
 h2 { font-size: var(--fs-h2) }
 h3 {
     font-size: x-large;
-}
-
-p {
-    font-size: x-large;
-    font-style: italic;
-    font-weight: normal;
 }
 
 .section__title {
@@ -149,7 +143,7 @@ header {
 }
 
 .logo {
-    max-width: 1000px;
+    max-width: 100px;
 }
 
 .nav {
@@ -236,7 +230,6 @@ header {
     width: 2em;
     height: 3px;
     border-radius: 1em;
-    transition: transform 250ms ease-in-out;
 }
 
 
@@ -255,9 +248,7 @@ header {
 /*  Intro section  */
 
 .intro {
-    display: flex;
-    max-width: 100000px;
-    margin: 0 auto;
+    position: relative;
 }
 
 .intro__img {
@@ -277,7 +268,6 @@ header {
     .intro {
         display: grid;
         width: min-content;
-        justify-content: center;
         margin: 0 auto;
         grid-column-gap: 1em;
         grid-template-areas: 
@@ -310,7 +300,6 @@ header {
 
 .my-services {
     background-color: var(--clr-dark);
-    background-image: url(../img/services-bg.jpg);
     background-size: cover;
     color: var(--clr-light);
     text-align: center;
@@ -332,12 +321,12 @@ header {
 }
 
 .services {
-    max-width: 500px;
+    margin-bottom: 4em;
 }
 
 
 .service {
-    max-width: 1000px;
+    max-width: 500px;
     margin: 0 auto;
 }    
 
@@ -356,9 +345,8 @@ header {
 
 
 .about-me {
-    display: flex;
     background-color: antiquewhite;
-    max-width: 100000px;
+    max-width: 1000px;
     margin: 0 auto;
 }
 hr {
